@@ -5,10 +5,10 @@ export default function Hero() {
     <section className="relative flex min-h-[100svh] items-center justify-center overflow-hidden bg-brown pt-16">
       {/* Pattern background */}
       <div
-        className="absolute inset-0 bg-repeat opacity-[0.07]"
+        className="absolute inset-0 bg-no-repeat opacity-[0.07]"
         style={{
           backgroundImage: "url('/Pattern.svg')",
-          backgroundSize: "900px auto",
+          backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       />
