@@ -54,7 +54,7 @@ export default function Footer() {
               Connect
             </h4>
             <p className="mb-4 text-sm font-light text-beige/40">
-              hello@zaristoneco.com
+              contact@zariandstone.com
             </p>
 
             {/* Social links */}
@@ -113,7 +113,7 @@ export default function Footer() {
 
               {/* Email */}
               <a
-                href="mailto:hello@zaristoneco.com"
+                href="mailto:contact@zariandstone.com"
                 aria-label="Email"
                 className="flex h-10 w-10 items-center justify-center border border-beige/10 text-beige/40 transition-all hover:border-green/30 hover:text-green-light"
               >

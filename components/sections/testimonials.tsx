@@ -7,9 +7,9 @@ const testimonials = [
   },
   {
     quote:
-      "They truly listened to what we wanted. The CAD process let us see the ring before it was made, and the final piece was absolutely perfect. We couldn't be happier.",
-    name: "Sarah & Michael",
-    detail: "Matching Wedding Bands — New York",
+      "I had no idea where to start with rings, but Zari & Stone Co. made the entire process easy and stress-free. They guided me through every detail I never would have considered, and their expertise gave me complete confidence. Thanks to them, my wife's ring is absolutely perfect.",
+    name: "Ali N.",
+    detail: "Custom Engagement Ring",
   },
   {
     quote:

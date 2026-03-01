@@ -2,20 +2,8 @@ export default function About() {
   return (
     <section id="about" className="bg-beige py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-6 lg:px-12">
-        <div className="grid items-center gap-16 lg:grid-cols-5">
-          {/* Left image placeholder */}
-          <div className="relative hidden lg:col-span-1 lg:block">
-            <div className="aspect-[3/4] w-full bg-cream">
-              <div className="flex h-full items-center justify-center">
-                <p className="text-[10px] uppercase tracking-[0.2em] text-warm-gray">
-                  Image
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Center content */}
-          <div className="text-center lg:col-span-3">
+        <div className="mx-auto max-w-2xl">
+          <div className="text-center">
             <p className="mb-3 font-display text-[10px] font-medium uppercase tracking-[0.35em] text-green-dark sm:text-[11px]">
               Our Story
             </p>
@@ -59,17 +47,6 @@ export default function About() {
                   </p>
                 </div>
               ))}
-            </div>
-          </div>
-
-          {/* Right image placeholder */}
-          <div className="relative hidden lg:col-span-1 lg:block">
-            <div className="aspect-[3/4] w-full bg-cream">
-              <div className="flex h-full items-center justify-center">
-                <p className="text-[10px] uppercase tracking-[0.2em] text-warm-gray">
-                  Image
-                </p>
-              </div>
             </div>
           </div>
         </div>

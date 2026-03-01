@@ -18,8 +18,8 @@ export default function Home() {
         <div className="motif-divider" />
         <Process />
         <div className="motif-divider" />
-        <Collection />
-        <div className="motif-divider" />
+        {/* <Collection />
+        <div className="motif-divider" /> */}
         <Testimonials />
         <div className="motif-divider" />
         <Contact />

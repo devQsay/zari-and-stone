@@ -3,7 +3,6 @@ import {
   Card,
   CardContent,
   CardFooter,
-  CardHeader,
 } from "@/components/ui/card";
 
 const pieces = [
@@ -57,33 +56,10 @@ export default function Collection() {
               key={piece.name}
               className="group overflow-hidden rounded-none border-brown/8 bg-white shadow-none transition-all duration-400 hover:shadow-lg hover:shadow-brown/5"
             >
-              <CardHeader className="p-0">
-                <div className="relative aspect-[3/4] w-full overflow-hidden bg-cream">
-                  <div className="absolute inset-0 flex flex-col items-center justify-center p-6 transition-transform duration-500 group-hover:scale-105">
-                    <svg
-                      width="40"
-                      height="40"
-                      viewBox="0 0 40 40"
-                      fill="none"
-                      className="mb-3 opacity-20 transition-opacity duration-400 group-hover:opacity-35"
-                    >
-                      <path
-                        d="M20 4 L32 20 L20 36 L8 20 Z"
-                        stroke="#483434"
-                        strokeWidth="0.7"
-                      />
-                      <circle cx="20" cy="20" r="4" stroke="#483434" strokeWidth="0.5" />
-                    </svg>
-                    <p className="text-[10px] uppercase tracking-[0.2em] text-warm-gray">
-                      Image coming soon
-                    </p>
-                  </div>
-                  <span className="absolute left-3 top-3 bg-beige/90 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.15em] text-brown">
-                    {piece.category}
-                  </span>
-                </div>
-              </CardHeader>
               <CardContent className="px-5 pt-5 pb-2">
+                <span className="mb-2 inline-block text-[10px] font-medium uppercase tracking-[0.15em] text-green-dark">
+                  {piece.category}
+                </span>
                 <h3 className="font-serif text-lg text-brown">{piece.name}</h3>
                 <p className="mt-1 text-xs font-light text-warm-gray">
                   {piece.description}

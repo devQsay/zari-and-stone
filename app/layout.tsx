@@ -24,6 +24,9 @@ const body = Host_Grotesk({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/icon.svg",
+  },
   title: "Zari & Stone Co. | Custom Engagement Rings & Wedding Bands",
   description:
     "Personalized jewelry crafted with intention. Custom engagement rings, wedding bands, and one-of-a-kind pieces. One-on-one consultations, CAD design, and handcrafted quality. Serving clients across the USA, Canada, and worldwide.",
