@@ -24,6 +24,7 @@ const body = Host_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://zariandstone.com"),
   icons: {
     icon: "/logo.svg",
   },
