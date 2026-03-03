@@ -30,10 +30,10 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               {[
-                { label: "About", href: "#about" },
-                { label: "Collections", href: "#collection" },
-                { label: "Process", href: "#process" },
-                { label: "Contact", href: "#contact" },
+                { label: "About", href: "/#about" },
+                { label: "Gallery", href: "/gallery" },
+                { label: "Process", href: "/#process" },
+                { label: "Contact", href: "/#contact" },
                 { label: "Privacy Policy", href: "#" },
               ].map((link) => (
                 <li key={link.label}>
@@ -108,6 +108,24 @@ export default function Footer() {
                   strokeLinejoin="round"
                 >
                   <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                </svg>
+              </a>
+
+              {/* TikTok */}
+              <a
+                href="https://www.tiktok.com/@zariandstoneco"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="TikTok"
+                className="flex h-10 w-10 items-center justify-center border border-beige/10 text-beige/40 transition-all hover:border-green/30 hover:text-green-light"
+              >
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.46V13a8.16 8.16 0 005.58 2.2V11.7a4.85 4.85 0 01-3.58-1.59V6.69h3.58z" />
                 </svg>
               </a>
 
