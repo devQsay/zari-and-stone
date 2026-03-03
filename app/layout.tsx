@@ -45,18 +45,14 @@ export const metadata: Metadata = {
     description:
       "Handcrafted, personalized jewelry for life's most important moments. Custom engagement rings and wedding bands serving clients across the USA and Canada.",
     type: "website",
-    images: [
-      {
-        url: "/images/gallery-9.JPG",
-      },
-    ],
+    images: ["https://zariandstone.com/social-share.jpg"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Zari & Stone Co. | Custom Engagement Rings & Wedding Bands",
     description:
       "Handcrafted, personalized jewelry for life's most important moments. Custom engagement rings and wedding bands serving clients across the USA and Canada.",
-    images: ["/images/gallery-9.JPG"],
+    images: ["https://zariandstone.com/social-share.jpg"],
   },
 };
 
