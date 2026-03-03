@@ -25,11 +25,11 @@ const body = Host_Grotesk({
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/icon.svg",
+    icon: "/logo.svg",
   },
   title: "Zari & Stone Co. | Custom Engagement Rings & Wedding Bands",
   description:
-    "Personalized jewelry crafted with intention. Custom engagement rings, wedding bands, and one-of-a-kind pieces. One-on-one consultations, CAD design, and handcrafted quality. Serving clients across the USA, Canada, and worldwide.",
+    "Handcrafted, personalized jewelry for life's most important moments. Custom engagement rings and wedding bands serving clients across the USA and Canada.",
   keywords: [
     "custom engagement rings",
     "custom wedding bands",
@@ -43,8 +43,20 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Zari & Stone Co. | Custom Engagement Rings & Wedding Bands",
     description:
-      "Where every stone tells your story. Custom engagement rings and wedding bands crafted with a deeply personal touch.",
+      "Handcrafted, personalized jewelry for life's most important moments. Custom engagement rings and wedding bands serving clients across the USA and Canada.",
     type: "website",
+    images: [
+      {
+        url: "/images/gallery-9.JPG",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Zari & Stone Co. | Custom Engagement Rings & Wedding Bands",
+    description:
+      "Handcrafted, personalized jewelry for life's most important moments. Custom engagement rings and wedding bands serving clients across the USA and Canada.",
+    images: ["/images/gallery-9.JPG"],
   },
 };
 
